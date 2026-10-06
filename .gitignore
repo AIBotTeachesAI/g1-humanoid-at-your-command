@@ -1,0 +1,28 @@
+# motion data — derived from gated BONES-SEED dataset
+motions/
+raw_csv/
+seed/
+
+# env
+.venv/
+__pycache__/
+*.pyc
+
+# generated
+seed_safe_shortlist.csv
+outputs/
+*.mp4
+*.mov
+
+# secrets
+.env
+*.token
+docs/
+
+# also derived from BONES-SEED
+motions_cmd/
+*.parquet
+*.bvh
+
+# macOS
+.DS_Store

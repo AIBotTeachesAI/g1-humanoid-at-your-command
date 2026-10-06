@@ -1,0 +1,16 @@
+[project]
+name = "g1-humanoid-at-your-command"
+version = "0.1.0"
+description = "Natural-language commands driving a Unitree G1 humanoid in MuJoCo, via Nemotron routing and NVIDIA SONIC whole-body control"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "huggingface-hub>=1.31.0",
+    "mujoco>=3.13.0",
+    "numpy>=2.5.3",
+    "openai>=3.14.0",
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.1",
+    "pyzmq>=27.2.0",
+    "scipy>=1.15",
+]
